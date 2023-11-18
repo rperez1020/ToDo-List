@@ -7,3 +7,8 @@
     color: red;
     text-decoration: line-through;
 }
+
+body{
+    display: flex;
+    flex-direction: column-reverse;
+}
