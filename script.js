@@ -1,13 +1,13 @@
-const form = document.querySelector('#new-item-form');
-const list = document.querySelector('#list');
-const input = document.querySwlector('#item-input');
+const form = document.querySelector("#new-item-form");
+const list = document.querySelector("#list");
+const input = document.querySelector("#item-input");
 
-form.addEventListener("submit", e => {
+form.addEventListener("submit", a => {
 
-    e.preventDefault()
+    a.preventDefault()
     
     const item = document.createElement("div");
-    item.innerText = item.value;
+    item.innerText = input.value;
     item.classList.add("list-item");
 
     list.appendChild(item);
