@@ -1,3 +1,4 @@
+
 .list-item{
     cursor: pointer;
     width: min-content;
@@ -11,4 +12,5 @@
 body, #list{
     display: flex;
     flex-direction: column-reverse;
+    white-space: nowrap;
 }
